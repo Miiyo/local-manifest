@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote name="miyo" fetch="https://github.com/miiyo/" /
+
+ <!-- Trees -->
+ <project path="device/sony/akari" name="device_sony_akari.git" remote="miyo" revision="thirteen" />
+ <project path="device/sony/tama-common-kddi" name="device_sony_tama-common.git" remote="miyo" revision="thirteen" />
+ <project path="vendor/sony/tama-common-kddi" name="proprietary_vendor_sony_tama-common.git" remote="miyo" revision="thirteen" />
+ <project path="vendor/sony/tama-common-kddi/akari" name="proprietary_vendor_sony_akari.git" remote="miyo" revision="thirteen" />
+ <project path="vendor/sony/tama-common-kddi/akatsuki" name="proprietary_vendor_sony_akatsuki.git" remote="miyo" revision="thirteen" />
+ <project path="kernel/sony/sdm845" name="android_kernel_sony_sdm845.git" remote="miyo" revision="Miyo" />
+ 
+</manifest>
