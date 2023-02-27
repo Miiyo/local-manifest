@@ -2,7 +2,8 @@
 <manifest>
 <remote name="miyo" fetch="https://github.com/Miiyo" />
 <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
-
+<remote name="trb" fetch="https://gitlab.com/varunhardgamer" />
+ 
  <!-- Trees -->
  <project path="device/sony/akari" name="device_sony_akari.git" remote="miyo" revision="rice-tm" />
  <project path="device/sony/tama-common-kddi" name="android_device_sony_tama-common.git" remote="miyo" revision="rice-tm" />
@@ -13,4 +14,5 @@
  
  <!-- CLANG -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-trb" name="trb_clang" remote="trb" revision="17" />
 </manifest>
