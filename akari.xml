@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote name="miyo" fetch="https://github.com/miiyo/" />
+<remote name="miyo" fetch="https://github.com/Miiyo" />
 
  <!-- Trees -->
  <project path="device/sony/akari" name="device_sony_akari.git" remote="miyo" revision="rice-tm" />
