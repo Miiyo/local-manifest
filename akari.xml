@@ -11,8 +11,4 @@
  <project path="vendor/sony/tama-common-kddi/akatsuki" name="proprietary_vendor_sony_akatsuki.git" remote="miyo" revision="thirteen" />
  <project path="kernel/sony/sdm845" name="android_kernel_sony_sdm845.git" remote="miyo" revision="MiyoInline" />
  
-   <!-- (Clang)  -->
-  
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
- 
 </manifest>
