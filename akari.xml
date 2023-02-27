@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote name="miyo" fetch="https://github.com/Miiyo" />
+<remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
 
  <!-- Trees -->
  <project path="device/sony/akari" name="device_sony_akari.git" remote="miyo" revision="rice-tm" />
@@ -9,5 +10,9 @@
  <project path="vendor/sony/tama-common-kddi/akari" name="proprietary_vendor_sony_akari.git" remote="miyo" revision="thirteen" />
  <project path="vendor/sony/tama-common-kddi/akatsuki" name="proprietary_vendor_sony_akatsuki.git" remote="miyo" revision="thirteen" />
  <project path="kernel/sony/sdm845" name="android_kernel_sony_sdm845.git" remote="miyo" revision="MiyoInline" />
+ 
+   <!-- (Clang)  -->
+  
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
  
 </manifest>
