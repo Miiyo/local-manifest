@@ -10,7 +10,7 @@
  <project path="vendor/sony/tama-common-kddi" name="proprietary_vendor_sony_tama-common.git" remote="miyo" revision="thirteen-kddi" />
  <project path="vendor/sony/tama-common-kddi/akari" name="proprietary_vendor_sony_akari.git" remote="miyo" revision="thirteen" />
  <project path="vendor/sony/tama-common-kddi/akatsuki" name="proprietary_vendor_sony_akatsuki.git" remote="miyo" revision="thirteen" />
- <project path="kernel/sony/sdm845" name="android_kernel_sony_sdm845.git" remote="miyo" revision="MiyoL-Inline" />
+ <project path="kernel/sony/sdm845" name="android_kernel_sony_sdm845.git" remote="miyo" revision="Miyo-Inline" />
  
   <!-- Toolchain -->
 
