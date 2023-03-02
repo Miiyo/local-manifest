@@ -4,16 +4,22 @@
 <!-- Remotes -->
 <remote name="miyo" fetch="https://github.com/Miiyo" />
 <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
+<remote name="aospa" fetch="https://github.com/AOSPA" />
 
  <!-- Device Tree -->
- <project path="device/sony/akari_kddi" name="device_sony_akari" remote="miyo" revision="rice-tm" />
- <project path="device/sony/tama-common-kddi" name="android_device_sony_tama-common" remote="miyo" revision="rice-tm" />
- <project path="vendor/sony/tama-common-kddi" name="proprietary_vendor_sony_tama-common" remote="miyo" revision="thirteen-kddi" />
+ <project path="device/sony/akari_kddi" name="device_sony_akari" remote="miyo" revision="aospa_topaz" />
+ <project path="device/sony/tama-common-kddi" name="android_device_sony_tama-common" remote="miyo" revision="aospa_topaz" />
+ <project path="vendor/sony/tama-common-kddi" name="proprietary_vendor_sony_tama-common" remote="miyo" revision="aospa_topaz" />
  <project path="vendor/sony/tama-common-kddi/akari" name="proprietary_vendor_sony_akari" remote="miyo" revision="thirteen" />
  <project path="vendor/sony/tama-common-kddi/akatsuki" name="proprietary_vendor_sony_akatsuki" remote="miyo" revision="thirteen" />
- <project path="kernel/sony/sdm845" name="android_kernel_sony_sdm845" remote="miyo" revision="MiyoInline" />
+ <project path="kernel/sony/sdm845" name="android_kernel_sony_sdm845" remote="miyo" revision="MiyoExp" />
 
  <!-- Clang -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
-  
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
+
+ <!-- SDM845 Hals -->
+<project path="vendor/qcom/opensource/audio-hal/primary-hal" name="android_hardware_qcom_audio" remote="aospa" revision="topaz-845" />
+<project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="aospa" revision="topaz-845" />
+<project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="aospa" revision="topaz-845" />
+<project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="aospa" revision="topaz-845" />
 </manifest>
