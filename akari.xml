@@ -4,7 +4,6 @@
 <!-- Remotes -->
 <remote name="miyo" fetch="https://github.com/Miiyo" />
 <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
-<remote name="aospa" fetch="https://github.com/AOSPA" />
 
  <!-- Device Tree -->
  <project path="device/sony/akari_kddi" name="device_sony_akari" remote="miyo" revision="aospa_topaz" />
