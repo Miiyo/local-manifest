@@ -3,6 +3,7 @@
 
 <!-- Remotes -->
 <remote name="miyo" fetch="https://github.com/Miiyo" />
+<remote name="topaz" fetch="https://github.com/AOSPA-Tama" />
 <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
 
  <!-- Device Tree -->
@@ -17,8 +18,8 @@
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
 
  <!-- SDM845 Hals -->
-<project path="vendor/qcom/opensource/audio-hal/primary-hal" name="android_hardware_qcom_audio" remote="aospa" revision="topaz-845" />
-<project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="aospa" revision="topaz-845" />
-<project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="aospa" revision="topaz-845" />
-<project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="aospa" revision="topaz-845" />
+<project path="vendor/qcom/opensource/audio-hal/primary-hal" name="android_hardware_qcom_audio" remote="topaz" revision="topaz-845" />
+<project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="topaz" revision="topaz-845" />
+<project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="topaz" revision="topaz-845" />
+<project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="topaz" revision="topaz-845" />
 </manifest>
