@@ -6,7 +6,7 @@
 <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
 
  <!-- Device Tree -->
- <project path="device/sony/akari_kddi" name="device_sony_akari" remote="miyo" revision="tirimbino" />
+ <project path="device/sony/akari" name="device_sony_akari" remote="miyo" revision="tirimbino" />
  <project path="device/sony/tama-common-kddi" name="android_device_sony_tama-common" remote="miyo" revision="tirimbino" />
  <project path="vendor/sony/tama-common-kddi" name="proprietary_vendor_sony_tama-common" remote="miyo" revision="t-13" />
  <project path="vendor/sony/tama-common-kddi/akari" name="proprietary_vendor_sony_akari" remote="miyo" revision="thirteen" />
