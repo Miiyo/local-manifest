@@ -10,8 +10,8 @@
  <project path="hardware/qcom-caf/sdm845/display" name="hardware_qcom-caf_sdm845_display" remote="miyo" revision="thirteen" />
  
  <!-- Device Tree -->
- <project path="device/sony/akari_kddi" name="device_sony_akari" remote="miyo" revision="13-qtimappershim" />
- <project path="device/sony/tama-common-kddi" name="android_device_sony_tama-common" remote="miyo" revision="13-kddi-qtimappershim" />
+ <project path="device/sony/akari_kddi" name="device_sony_akari" remote="miyo" revision="cherish-13" />
+ <project path="device/sony/tama-common-kddi" name="android_device_sony_tama-common" remote="miyo" revision="cherish-13" />
  <project path="vendor/sony/tama-common-kddi" name="proprietary_vendor_sony_tama-common" remote="miyo" revision="t13-qtimappershim" />
  <project path="vendor/sony/tama-common-kddi/akari" name="proprietary_vendor_sony_akari" remote="miyo" revision="thirteen" />
  <project path="kernel/sony/sdm845" name="android_kernel_sony_sdm845" remote="miyo" revision="MiyoToku" />
