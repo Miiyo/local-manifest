@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<!-- Remotes -->
-<remote name="miyo" fetch="https://github.com/Miiyo" />
-<remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
+ <!-- Remotes -->
+ <remote name="miyo" fetch="https://github.com/Miiyo" />
+ <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
 
  <!-- Remove Project -->
  <remove-project name="LineageOS/android_hardware_qcom_display" />
