@@ -6,7 +6,7 @@
  <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
 
  <!-- Remove Project -->
- <remove-project name="LineageOS/android_hardware_qcom_display" />
+
  <project path="hardware/qcom-caf/sdm845/display" name="hardware_qcom-caf_sdm845_display" remote="miyo" revision="thirteen" />
  <remove-project name="BootleggersROM/frameworks_native" />
  <project path="frameworks/native" name="frameworks_native" remote="miyo" revision="tirimbino" />
